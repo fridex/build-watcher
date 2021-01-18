@@ -447,7 +447,7 @@ def _submitter(
     "is used without route being exposed. This way you can copy images from internal registry to a remote one "
     "where Thoth has access to. Thoth will use the push registry specified instead of the original one where "
     "images were pushed to. If credentials are required to push into push registry, "
-    "see --registry-{user,password} configuration options.",
+    "see --dst-registry-{user,password} configuration options.",
 )
 @click.option(
     "--analyze-existing",
